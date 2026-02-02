@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head id="abc">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentasd</title>
+
+</head>
+
+<body>
+
+
+   <form id="signup">
+    <input type="text" name="username" required>
+    <input type="email" name="email" required>
+    <input type="password" name="password" required>
+    <input type="checkbox" name="terms">
+    <button type="submit">Register</button>
+</form>
+
+    
+<script>
+     // Get all required fields
+    
+    console.log(document.querySelectorAll('input[required]'))
+    // Get all text inputs
+    console.log(document.querySelector('input[type=text]'))
+    // const textInputs
+    // // Get password field
+    console.log(document.querySelector('input[type=password]'))
+    // const password
+    // // Get form
+    console.log(document.querySelector('form'))
+    // const form
+    // // Get all inputs within form
+    console.log(document.querySelectorAll('form input'))
+    // const formInputs
+</script>
+</body>
+</body>
+</html>
