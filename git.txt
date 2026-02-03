@@ -4,4 +4,5 @@ Methods for getting code from git
 3. git fetch> get latest changes w/o merging
 4. forking > copy of repo in your own account
 5. downloading> download zip in file from repogit this
-harry patel
+
+hp petrol
